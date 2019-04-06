@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Northwest_KC_Contest_BAckendlessApp
 //
-//  Created by student on 4/5/19.
-//  Copyright © 2019 student. All rights reserved.
+//  Created by rayaan on 4/5/19.
+//  Copyright © 2019 Northwest. All rights reserved.
 //
 
 import UIKit

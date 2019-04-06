@@ -1,0 +1,6 @@
+framework module Pods_Northwest_KC_Contest_BAckendlessApp {
+  umbrella header "Pods-Northwest_KC_Contest_BAckendlessApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

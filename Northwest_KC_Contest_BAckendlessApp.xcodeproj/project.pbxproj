@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FB1821122584CB60087088D /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1820B22584CB50087088D /* StudentsViewController.swift */; };
+		3FB1821222584CB60087088D /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1820C22584CB50087088D /* TeamsTableViewController.swift */; };
+		3FB1821322584CB60087088D /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1820D22584CB50087088D /* Schools.swift */; };
+		3FB1821422584CB60087088D /* NewSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1820E22584CB60087088D /* NewSchoolViewController.swift */; };
+		3FB1821522584CB60087088D /* NewTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1820F22584CB60087088D /* NewTeamViewController.swift */; };
+		3FB1821622584CB60087088D /* SchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1821022584CB60087088D /* SchoolsTableViewController.swift */; };
 		3FDCB84422584A4300A70670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCB84322584A4300A70670 /* AppDelegate.swift */; };
 		3FDCB84622584A4300A70670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCB84522584A4300A70670 /* ViewController.swift */; };
 		3FDCB84922584A4300A70670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCB84722584A4300A70670 /* Main.storyboard */; };
 		3FDCB84B22584A4500A70670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCB84A22584A4500A70670 /* Assets.xcassets */; };
 		3FDCB84E22584A4500A70670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCB84C22584A4500A70670 /* LaunchScreen.storyboard */; };
+		CB3808413E639F4F2C2D149E /* Pods_Northwest_KC_Contest_BAckendlessApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F43888220A5020C043F8FC /* Pods_Northwest_KC_Contest_BAckendlessApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30A3C899BBED531540290C68 /* Pods-Northwest_KC_Contest_BAckendlessApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northwest_KC_Contest_BAckendlessApp.debug.xcconfig"; path = "Target Support Files/Pods-Northwest_KC_Contest_BAckendlessApp/Pods-Northwest_KC_Contest_BAckendlessApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3FB1820B22584CB50087088D /* StudentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		3FB1820C22584CB50087088D /* TeamsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		3FB1820D22584CB50087088D /* Schools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schools.swift; sourceTree = "<group>"; };
+		3FB1820E22584CB60087088D /* NewSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSchoolViewController.swift; sourceTree = "<group>"; };
+		3FB1820F22584CB60087088D /* NewTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTeamViewController.swift; sourceTree = "<group>"; };
+		3FB1821022584CB60087088D /* SchoolsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsTableViewController.swift; sourceTree = "<group>"; };
 		3FDCB84022584A4300A70670 /* Northwest_KC_Contest_BAckendlessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Northwest_KC_Contest_BAckendlessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDCB84322584A4300A70670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDCB84522584A4300A70670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		3FDCB84A22584A4500A70670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDCB84D22584A4500A70670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FDCB84F22584A4500A70670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825CD7172B0DE43CC256DBFC /* Pods-Northwest_KC_Contest_BAckendlessApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Northwest_KC_Contest_BAckendlessApp.release.xcconfig"; path = "Target Support Files/Pods-Northwest_KC_Contest_BAckendlessApp/Pods-Northwest_KC_Contest_BAckendlessApp.release.xcconfig"; sourceTree = "<group>"; };
+		D8F43888220A5020C043F8FC /* Pods_Northwest_KC_Contest_BAckendlessApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Northwest_KC_Contest_BAckendlessApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3808413E639F4F2C2D149E /* Pods_Northwest_KC_Contest_BAckendlessApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12929883DF60F0AF2A53789F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F43888220A5020C043F8FC /* Pods_Northwest_KC_Contest_BAckendlessApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3FDCB83722584A4300A70670 = {
 			isa = PBXGroup;
 			children = (
 				3FDCB84222584A4300A70670 /* Northwest_KC_Contest_BAckendlessApp */,
 				3FDCB84122584A4300A70670 /* Products */,
+				C740D3A5A91FC1A12AD5E954 /* Pods */,
+				12929883DF60F0AF2A53789F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +81,12 @@
 		3FDCB84222584A4300A70670 /* Northwest_KC_Contest_BAckendlessApp */ = {
 			isa = PBXGroup;
 			children = (
+				3FB1820E22584CB60087088D /* NewSchoolViewController.swift */,
+				3FB1820F22584CB60087088D /* NewTeamViewController.swift */,
+				3FB1820D22584CB50087088D /* Schools.swift */,
+				3FB1821022584CB60087088D /* SchoolsTableViewController.swift */,
+				3FB1820B22584CB50087088D /* StudentsViewController.swift */,
+				3FB1820C22584CB50087088D /* TeamsTableViewController.swift */,
 				3FDCB84322584A4300A70670 /* AppDelegate.swift */,
 				3FDCB84522584A4300A70670 /* ViewController.swift */,
 				3FDCB84722584A4300A70670 /* Main.storyboard */,
@@ -64,6 +97,15 @@
 			path = Northwest_KC_Contest_BAckendlessApp;
 			sourceTree = "<group>";
 		};
+		C740D3A5A91FC1A12AD5E954 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30A3C899BBED531540290C68 /* Pods-Northwest_KC_Contest_BAckendlessApp.debug.xcconfig */,
+				825CD7172B0DE43CC256DBFC /* Pods-Northwest_KC_Contest_BAckendlessApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FDCB85222584A4500A70670 /* Build configuration list for PBXNativeTarget "Northwest_KC_Contest_BAckendlessApp" */;
 			buildPhases = (
+				46B67E7EA14A2DD5AEF0DEE6 /* [CP] Check Pods Manifest.lock */,
 				3FDCB83C22584A4300A70670 /* Sources */,
 				3FDCB83D22584A4300A70670 /* Frameworks */,
 				3FDCB83E22584A4300A70670 /* Resources */,
+				B5F19FC7B15795869565697E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +174,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46B67E7EA14A2DD5AEF0DEE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Northwest_KC_Contest_BAckendlessApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F19FC7B15795869565697E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Northwest_KC_Contest_BAckendlessApp/Pods-Northwest_KC_Contest_BAckendlessApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Northwest_KC_Contest_BAckendlessApp/Pods-Northwest_KC_Contest_BAckendlessApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FDCB83C22584A4300A70670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +230,12 @@
 			files = (
 				3FDCB84622584A4300A70670 /* ViewController.swift in Sources */,
 				3FDCB84422584A4300A70670 /* AppDelegate.swift in Sources */,
+				3FB1821622584CB60087088D /* SchoolsTableViewController.swift in Sources */,
+				3FB1821322584CB60087088D /* Schools.swift in Sources */,
+				3FB1821422584CB60087088D /* NewSchoolViewController.swift in Sources */,
+				3FB1821522584CB60087088D /* NewTeamViewController.swift in Sources */,
+				3FB1821222584CB60087088D /* TeamsTableViewController.swift in Sources */,
+				3FB1821122584CB60087088D /* StudentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +379,7 @@
 		};
 		3FDCB85322584A4500A70670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A3C899BBED531540290C68 /* Pods-Northwest_KC_Contest_BAckendlessApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +390,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Northwest-KC-Contest-BAckendlessApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +398,7 @@
 		};
 		3FDCB85422584A4500A70670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825CD7172B0DE43CC256DBFC /* Pods-Northwest_KC_Contest_BAckendlessApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +409,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Northwest-KC-Contest-BAckendlessApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
